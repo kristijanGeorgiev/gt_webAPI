@@ -1,0 +1,36 @@
+# Ignore build outputs
+**/bin/
+**/obj/
+**/out/
+
+# Ignore user-specific and IDE files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore test results and logs
+TestResults/
+*.log
+
+# Ignore packages
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore database and environment configs
+*.db
+*.sqlite
+*.mdf
+*.ldf
+.env
+
+# Ignore editor configs
+.idea/
+.vscode/
+*.swp
+
+# macOS and Windows junk
+.DS_Store
+Thumbs.db
+ 
